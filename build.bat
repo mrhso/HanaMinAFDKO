@@ -38,6 +38,6 @@ mergeFonts -cid HanaMinExC.cidinfo HanaMinExC.raw HanaMinExC.cidmap HanaMinExC.p
 echo Building HanaMinAFDKO...
 echo.
 call build-nohint.bat
-echo Building HanaMinAFDKO-Hinted...
-echo.
-call build-hint.bat
+rem echo Building HanaMinAFDKO-Hinted...
+rem echo.
+rem call build-hint.bat
