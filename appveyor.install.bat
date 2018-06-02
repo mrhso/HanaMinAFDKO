@@ -1,7 +1,7 @@
 setlocal
 
 set nocache=0
-set PATH=C:\Python27-x64;%PATH%
+set PATH=C:\Python27-x64;C:\Python27-x64\Scripts;%PATH%
 set AFDKO_WHL=https://img.vim-cn.com/d7/9810f51343527feda6e1eb5cac5a82bb806771.zip
 set AFDKO_VER=2.7.1rc0
 
