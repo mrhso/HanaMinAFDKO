@@ -22,34 +22,34 @@ build_script:
 
 artifacts:
   - path: HanaMinA.otf
-    name: HanaMinA
+    name: HanaMinA-CID
   - path: HanaMinB.otf
-    name: HanaMinB
+    name: HanaMinB-CID
   - path: HanaMinC.otf
-    name: HanaMinC
+    name: HanaMinC-CID
   - path: HanaMinI.otf
-    name: HanaMinI
+    name: HanaMinI-CID
   - path: HanaMinExA1.otf
-    name: HanaMinExA1
+    name: HanaMinExA1-CID
   - path: HanaMinExA2.otf
-    name: HanaMinExA2
+    name: HanaMinExA2-CID
   - path: HanaMinExB.otf
-    name: HanaMinExB
+    name: HanaMinExB-CID
   - path: HanaMinExC.otf
-    name: HanaMinExC
-  - path: HanaMinA-Hinted.otf
-    name: HanaMinA-Hinted
-  - path: HanaMinB-Hinted.otf
-    name: HanaMinB-Hinted
-  - path: HanaMinC-Hinted.otf
-    name: HanaMinC-Hinted
-  - path: HanaMinI-Hinted.otf
-    name: HanaMinI-Hinted
-  - path: HanaMinExA1-Hinted.otf
-    name: HanaMinExA1-Hinted
-  - path: HanaMinExA2-Hinted.otf
-    name: HanaMinExA2-Hinted
-  - path: HanaMinExB-Hinted.otf
-    name: HanaMinExB-Hinted
-  - path: HanaMinExC-Hinted.otf
-    name: HanaMinExC-Hinted
+    name: HanaMinExC-CID
+  - path: HanaMinA.ttf
+    name: HanaMinA-TrueType
+  - path: HanaMinB.ttf
+    name: HanaMinB-TrueType
+  - path: HanaMinC.ttf
+    name: HanaMinC-TrueType
+  - path: HanaMinI.ttf
+    name: HanaMinI-TrueType
+  - path: HanaMinExA1.ttf
+    name: HanaMinExA1-TrueType
+  - path: HanaMinExA2.ttf
+    name: HanaMinExA2-TrueType
+  - path: HanaMinExB.ttf
+    name: HanaMinExB-TrueType
+  - path: HanaMinExC.ttf
+    name: HanaMinExC-TrueType
