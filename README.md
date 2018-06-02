@@ -1,6 +1,8 @@
 Hanazono Mincho (HanaMin) Font AFDKO version
 =============================
 
+[![Build status](https://ci.appveyor.com/api/projects/status/cd9mpb7nr7e7faak?svg=true)](https://ci.appveyor.com/project/mrhso/hanaminafdko)
+
 ## Overview
 
 This is an [AFDKO](http://www.adobe.com/devnet/opentype/afdko.html)
