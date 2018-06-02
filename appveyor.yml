@@ -6,10 +6,6 @@ pull_requests:
 version: '{branch} build {build}'
 image: Visual Studio 2015
 
-cache:
-  - afdko.cached -> appveyor.install.bat
-  - C:\Python27-x64 -> appveyor.install.bat
-
 init:
   - git --version
   - git config --global core.autocrlf true
