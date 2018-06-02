@@ -1,11 +1,12 @@
 setlocal
 
 set nocache=0
+set PATH=C:\Python27-x64;%PATH%
 
 if not exist afdko.cached set nocache=1
 if not exist C:\Python27-x64 set nocache=1
-set PATH=C:\Python27-x64;%PATH%
 
+choco install activeperl
 git submodule init
 git submodule update perl-scripts
 

@@ -6,7 +6,7 @@ if not defined ADOBE_PERL set ADOBE_PERL=%CD%\perl-scripts
 echo ADOBE_PERL=%ADOBE_PERL%
 echo.
 
-set PATH=C:\MinGW\msys\1.0\bin;C:\Python27-x64;%PATH%
+set PATH=C:\Python27-x64;C:\Perl64\site\bin;C:\Perl64\bin;C:\MinGW\msys\1.0\bin;%PATH%
 echo PATH=%PATH%
 echo.
 
