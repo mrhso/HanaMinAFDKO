@@ -8,7 +8,3 @@ npm install -g otfcc-c2q
 pip install afdko
 curl -o otfcc-win64-%OTFCC_VER%.zip %OTFCC_ZIP%
 unzip -d otfcc otfcc-win64-%OTFCC_VER%.zip
-goto EXIT
-
-:EXIT
-exit /b %EXITCODE%
