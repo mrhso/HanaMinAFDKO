@@ -1,0 +1,55 @@
+skip_tags: true
+clone_depth: 1
+pull_requests:
+  do_not_increment_build_number: true
+
+version: '{branch} build {build}'
+image: Visual Studio 2015
+
+cache:
+  - afdko.cached -> appveyor.install.bat
+  - C:\Python27 -> appveyor.install.bat
+
+init:
+  - git --version
+  - git config --global core.autocrlf true
+
+install:
+  - .\appveyor.install.bat
+
+build_script:
+  - .\build.bat
+
+artifacts:
+  - path: HanaMinA.otf
+    name: HanaMinA
+  - path: HanaMinB.otf
+    name: HanaMinB
+  - path: HanaMinC.otf
+    name: HanaMinC
+  - path: HanaMinI.otf
+    name: HanaMinI
+  - path: HanaMinExA1.otf
+    name: HanaMinExA1
+  - path: HanaMinExA2.otf
+    name: HanaMinExA2
+  - path: HanaMinExB.otf
+    name: HanaMinExB
+  - path: HanaMinExC.otf
+    name: HanaMinExC
+  - path: HanaMinA-Hinted.otf
+    name: HanaMinA-Hinted
+  - path: HanaMinB-Hinted.otf
+    name: HanaMinB-Hinted
+  - path: HanaMinC-Hinted.otf
+    name: HanaMinC-Hinted
+  - path: HanaMinI-Hinted.otf
+    name: HanaMinI-Hinted
+  - path: HanaMinExA1-Hinted.otf
+    name: HanaMinExA1-Hinted
+  - path: HanaMinExA2-Hinted.otf
+    name: HanaMinExA2-Hinted
+  - path: HanaMinExB-Hinted.otf
+    name: HanaMinExB-Hinted
+  - path: HanaMinExC-Hinted.otf
+    name: HanaMinExC-Hinted
