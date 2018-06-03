@@ -1,10 +1,26 @@
 @echo off
 
-otfccdump HanaMinA.otf | otfcc-c2q | otfccbuild -o HanaMinA.ttf
-otfccdump HanaMinB.otf | otfcc-c2q | otfccbuild -o HanaMinB.ttf
-otfccdump HanaMinC.otf | otfcc-c2q | otfccbuild -o HanaMinC.ttf
-otfccdump HanaMinI.otf | otfcc-c2q | otfccbuild -o HanaMinI.ttf
-otfccdump HanaMinExA1.otf | otfcc-c2q | otfccbuild -o HanaMinExA1.ttf
-otfccdump HanaMinExA2.otf | otfcc-c2q | otfccbuild -o HanaMinExA2.ttf
-otfccdump HanaMinExB.otf | otfcc-c2q | otfccbuild -o HanaMinExB.ttf
-otfccdump HanaMinExC.otf | otfcc-c2q | otfccbuild -o HanaMinExC.ttf
+otfccdump HanaMinA.otf -o HanaMinA.otd
+otfcc-c2q < HanaMinA.otd > HanaMinA.ttd
+otfccbuild HanaMinA.ttd -o HanaMinA.ttf
+otfccdump HanaMinB.otf -o HanaMinB.otd
+otfcc-c2q < HanaMinB.otd > HanaMinB.ttd
+otfccbuild HanaMinB.ttd -o HanaMinB.ttf
+otfccdump HanaMinC.otf -o HanaMinC.otd
+otfcc-c2q < HanaMinC.otd > HanaMinC.ttd
+otfccbuild HanaMinC.ttd -o HanaMinC.ttf
+otfccdump HanaMinI.otf -o HanaMinI.otd
+otfcc-c2q < HanaMinI.otd > HanaMinI.ttd
+otfccbuild HanaMinI.ttd -o HanaMinI.ttf
+otfccdump HanaMinExA1.otf -o HanaMinExA1.otd
+otfcc-c2q < HanaMinExA1.otd > HanaMinExA1.ttd
+otfccbuild HanaMinExA1.ttd -o HanaMinExA1.ttf
+otfccdump HanaMinExA2.otf -o HanaMinExA2.otd
+otfcc-c2q < HanaMinExA2.otd > HanaMinExA2.ttd
+otfccbuild HanaMinExA2.ttd -o HanaMinExA2.ttf
+otfccdump HanaMinExB.otf -o HanaMinExB.otd
+otfcc-c2q < HanaMinExB.otd > HanaMinExB.ttd
+otfccbuild HanaMinExB.ttd -o HanaMinExB.ttf
+otfccdump HanaMinExC.otf -o HanaMinExC.otd
+otfcc-c2q < HanaMinExC.otd > HanaMinExC.ttd
+otfccbuild HanaMinExC.ttd -o HanaMinExC.ttf
