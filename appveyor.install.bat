@@ -5,6 +5,8 @@ if not defined OTFCC_ZIP set OTFCC_ZIP=https://img.vim-cn.com/70/9ef4472faa2773f
 if not defined OTFCC_VER set OTFCC_VER=0.10.3
 if not defined HanaMinAFDKO_Root set HanaMinAFDKO_Root=%CD%
 
+git submodule init
+git submodule update otfcc-c2q
 pip install afdko
 curl -o otfcc-win64-%OTFCC_VER%.zip %OTFCC_ZIP%
 unzip -d otfcc otfcc-win64-%OTFCC_VER%.zip
