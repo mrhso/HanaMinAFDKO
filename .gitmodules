@@ -1,0 +1,3 @@
+[submodule "otfcc-c2q"]
+	path = otfcc-c2q
+	url = https://github.com/caryll/otfcc-cubic2quad.git

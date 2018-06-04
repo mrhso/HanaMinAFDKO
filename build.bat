@@ -2,6 +2,14 @@
 
 setlocal
 
+if not defined HanaMinAFDKO_Root set HanaMinAFDKO_Root=%CD%
+echo HanaMinAFDKO_Root=%HanaMinAFDKO_Root%
+echo.
+
+if not defined max-old-space-size set max-old-space-size=3072
+echo max-old-space-size=%max-old-space-size%
+echo.
+
 set PATH=C:\MinGW\msys\1.0\bin;%CD%\otfcc\release-x64;%PATH%
 echo PATH=%PATH%
 echo.
