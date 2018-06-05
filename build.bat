@@ -6,7 +6,7 @@ if not defined HanaMinAFDKO_Root set HanaMinAFDKO_Root=%CD%
 echo HanaMinAFDKO_Root=%HanaMinAFDKO_Root%
 echo.
 
-if not defined max-old-space-size set max-old-space-size=1024
+if not defined max-old-space-size set max-old-space-size=1500
 echo max-old-space-size=%max-old-space-size%
 echo.
 
